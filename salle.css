@@ -3,6 +3,11 @@
 @font-face { font-family: 'Klavika Light'; src: url('fonts/Klavika Light.otf'); }
 @font-face { font-family: 'Klavika Bold'; src: url('fonts/Klavika Bold.otf'); }
 
+/*OTHER*/
+.red-color {
+  color: #D20A0A;
+}
+
 /*NAVBAR */
 .navbar-black {
   background-color: #151319;
@@ -22,4 +27,48 @@
 }
 .navbar a:hover {
   color: #D20A0A;
+}
+.navbar-header a:hover {
+  color: #fff;
+}
+/*HEADER VIDEO*/
+.header-container {
+  width: 100%;
+  height: 900px;
+  border-left: none;
+  border-right: none;
+  position: relative;
+  padding: 20px;
+}
+.video-container {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+video {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+.header-container h1 {
+  z-index: 1;
+  color: #fff;
+  font-family: 'Klavika Bold';
+  font-size: 90px;
+}
+.header-container p {
+  color: #c8c9ca;
+  font-family: 'Klavika Light';
+  font-size: 18px;
+}
+.btn-red {
+  background-color: #D20A0A;
+  color: #fff;
+  font-family: 'Klavika';
+}
+.block1 {
+  margin-top: 7em;
 }
