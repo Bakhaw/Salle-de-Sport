@@ -1,16 +1,23 @@
 /*ADD CUSTOM FONT*/
-@font-face { font-family: Klavika; src: url('fonts/Klavika Regular Plain.otf'); }
+@font-face { font-family: 'Klavika'; src: url('fonts/Klavika Regular Plain.otf'); }
+@font-face { font-family: 'Klavika Light'; src: url('fonts/Klavika Light.otf'); }
+@font-face { font-family: 'Klavika Bold'; src: url('fonts/Klavika Bold.otf'); }
 
 /*NAVBAR */
 .navbar-black {
   background-color: #151319;
 }
+.navbar-black a {
+  font-family: 'Klavika Light';
+  font-size: 16px;
+  color: #fff;
+}
 .navbar-red {
   background-color: #D20A0A;
 }
-.navbar a {
-  font-family: Klavika;
-  font-size: 16px;
+.navbar-red a {
+  font-family: 'Klavika';
+  font-size: 18px;
   color: #fff;
 }
 .navbar a:hover {
