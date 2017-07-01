@@ -1,1 +1,18 @@
+/*ADD CUSTOM FONT*/
+@font-face { font-family: Klavika; src: url('fonts/Klavika Regular Plain.otf'); }
 
+/*NAVBAR */
+.navbar-black {
+  background-color: #151319;
+}
+.navbar-red {
+  background-color: #D20A0A;
+}
+.navbar a {
+  font-family: Klavika;
+  font-size: 16px;
+  color: #fff;
+}
+.navbar a:hover {
+  color: #D20A0A;
+}
