@@ -168,7 +168,7 @@ video {
 .block4 h1 {
   color: #fff;
   font-family: 'Klavika Bold';
-  font-style: 28px;
+  font-size: 28px;
   padding-bottom: 10px;
 }
 .block4 a {
@@ -257,3 +257,62 @@ video {
 /*----------------------------------------*/
 
 /*BLOCK6*/
+.block6 h1 {
+  color: #000;
+  font-family: 'Klavika';
+  font-size: 64px;
+  padding-bottom: 10px;
+}
+.block6 label,
+.block6 input,
+.block6 textarea,
+.block6 select,
+.block6 button {
+  color: #000;
+  font-family: 'Klavika Light';
+  font-size: 16px;
+}
+/*END BLOCK5/6*/
+
+/*----------------------------------------*/
+
+/*BLOCK7*/
+.block7 {
+  background-color: #0C0C0F;
+  padding-top: 30px;
+}
+.block7 img {
+  margin-bottom: 20px;
+}
+/*END BLOCK7*/
+
+/*----------------------------------------*/
+
+/*BLOCK8*/
+.block8 {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-family: 'Klavika';
+  background-image: linear-gradient(rgb(0,0,0) 0%, rgba(186, 32, 32, 0.7) 0%), url(images/free-train.jpg);
+  background-size: cover;
+  height: 350px;
+}
+.block8 h2 {
+  font-size: 18px;
+}
+.block8 h1 {
+  font-size: 52px;
+  font-family: 'Klavika Bold';
+}
+.block8 a {
+  font-family: 'Klavika';
+  color: #fff;
+  background-color: #000;
+  transition: 0.3s;
+}
+.block8 a:hover {
+  background-color: #fff;
+  color: #000;
+}
+/*END BLOCK8*/
