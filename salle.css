@@ -3,10 +3,19 @@
 @font-face { font-family: 'Klavika Light'; src: url('fonts/Klavika Light.otf'); }
 @font-face { font-family: 'Klavika Bold'; src: url('fonts/Klavika Bold.otf'); }
 
-/*OTHER*/
+/*GENERAL*/
+.row {
+  padding-bottom: 30px;
+}
 .red-color {
   color: #D20A0A;
 }
+.test {
+  border: 5px solid yellow
+}
+/*END GENERAL*/
+
+/*----------------------------------------*/
 
 /*NAVBAR */
 .navbar-black {
@@ -31,7 +40,11 @@
 .navbar-header a:hover {
   color: #fff;
 }
-/*HEADER VIDEO*/
+/*END NAVBAR*/
+
+/*----------------------------------------*/
+
+/*HEADER / BLOCK1*/
 .header-container {
   width: 100%;
   height: 550px;
@@ -77,4 +90,158 @@ video {
 }
 .block1 {
   margin-top: 7em;
+}
+/*END HEADER / BLOCK1*/
+
+/*----------------------------------------*/
+
+/*BLOCK2*/
+.block2 {
+  background-color: #B01113;
+}
+.block2 h1 {
+  color: #fff;
+  font-family: 'Klavika';
+  font-size: 66px;
+}
+.block2 p {
+  font-style: italic;
+  font-family: 'Klavika Light';
+  font-size: 18px;
+  color: #fff;
+}
+.block2 a {
+  font-family: 'Klavika';
+  color: #fff;
+  background-color: #000;
+  transition: 0.3s;
+}
+.block2 a:hover {
+  background-color: #fff;
+  color: #000;
+}
+/*END BLOCK2*/
+
+/*----------------------------------------*/
+
+/*BLOCK3*/
+.block3 {
+  font-family: 'Klavika';
+  background-image: linear-gradient(rgb(0,0,0) 0%, rgba(236, 213, 213, 0.3) 0%), url(images/classes.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.block3 h1 {
+  font-family: 'Klavika Bold';
+  color: #000;
+  font-size: 40px;
+  padding: 0.5em 0;
+}
+.block3 p {
+  color: #000;
+  font-size: 20px;
+  padding-bottom: 15em;
+}
+.block3 img {
+  box-shadow: 5px 5px 20px;
+}
+.block3 a {
+  background-color: #D20A0A;
+  color: #fff;
+  transition: 0.3s;
+}
+.block3 a:hover {
+  color: #D20A0A;
+  background-color: #fff;
+  transition: 0.3s;
+}
+/*END BLOCK3*/
+
+/*----------------------------------------*/
+
+/*BLOCK4*/
+.block4 {
+  background-color: #0C0C0F;
+}
+.block4 a {
+  color: #8c8c8c;
+  font-family: 'Klavika Bold';
+  font-size: 25px;
+}
+.block4-1 a,
+.block4-2 a,
+.block5-1 a,
+.block5-2 a,
+.block5-3 a,
+.block5-4 a {
+  width:100%;
+  padding: 7em 0;
+}
+.block4-1 a:hover,
+.block4-2 a:hover,
+.block5-1 a:hover,
+.block5-2 a:hover,
+.block5-3 a:hover,
+.block5-4 a:hover {
+  color: #fff;
+}
+.block4-1 {
+  background-image: linear-gradient(rgb(0,0,0) 0%, rgba(0,0,0,0.4) 0%), url(images/block4-1.jpg);
+  background-size: cover;
+}
+.block4-1:hover {
+  background-image: url(images/block4-1.jpg);
+  background-size: cover;
+}
+.block4-2 {
+  background-image: linear-gradient(rgb(0,0,0) 0%, rgba(0,0,0,0.4) 0%), url(images/block4-2.jpg);
+  background-size: cover;
+}
+.block4-2:hover {
+  background-image: url(images/block4-2.jpg);
+  background-size: cover;
+}
+/*END BLOCK4*/
+
+/*----------------------------------------*/
+
+/*BLOCK5*/
+.block5-1,
+.block5-2,
+.block5-3,
+.block5-4 {
+  margin-top: 1em;
+}
+.block5-1 {
+  background-image: linear-gradient(rgb(0,0,0) 0%, rgba(0,0,0,0.4) 0%), url(images/block5-1.jpg);
+  background-size: cover;
+}
+.block5-1:hover {
+  background-image: url(images/block5-1.jpg);
+  background-size: cover;
+}
+.block5-2 {
+  background-image: linear-gradient(rgb(0,0,0) 0%, rgba(0,0,0,0.4) 0%), url(images/block5-2.jpg);
+  background-size: cover;
+}
+.block5-2:hover {
+  background-image: url(images/block5-2.jpg);
+  background-size: cover;
+}
+.block5-3 {
+  background-image: linear-gradient(rgb(0,0,0) 0%, rgba(0,0,0,0.4) 0%), url(images/block5-3.jpg);
+  background-size: cover;
+}
+.block5-3:hover {
+  background-image: url(images/block5-3.jpg);
+  background-size: cover;
+}
+.block5-4 {
+  background-image: linear-gradient(rgb(0,0,0) 0%, rgba(0,0,0,0.4) 0%), url(images/block5-4.jpg);
+  background-size: cover;
+}
+.block5-4:hover {
+  background-image: url(images/block5-4.jpg);
+  background-size: cover;
 }
