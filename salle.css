@@ -163,6 +163,13 @@ video {
 /*BLOCK4*/
 .block4 {
   background-color: #0C0C0F;
+  padding: 5em 0;
+}
+.block4 h1 {
+  color: #fff;
+  font-family: 'Klavika Bold';
+  font-style: 28px;
+  padding-bottom: 10px;
 }
 .block4 a {
   color: #8c8c8c;
@@ -245,3 +252,8 @@ video {
   background-image: url(images/block5-4.jpg);
   background-size: cover;
 }
+/*END BLOCK5*/
+
+/*----------------------------------------*/
+
+/*BLOCK6*/
