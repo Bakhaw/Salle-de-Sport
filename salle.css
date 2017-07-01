@@ -294,7 +294,7 @@ video {
   display: flex;
   align-items: center;
   font-family: 'Klavika';
-  background-image: linear-gradient(rgb(0,0,0) 0%, rgba(186, 32, 32, 0.7) 0%), url(images/free-train.jpg);
+  background-image: linear-gradient(rgb(0,0,0) 0%, rgba(186, 32, 32, 0.5) 0%), url(images/free-train.jpg);
   background-size: cover;
   height: 350px;
 }
@@ -316,3 +316,66 @@ video {
   color: #000;
 }
 /*END BLOCK8*/
+
+/*----------------------------------------*/
+
+/*BLOCK9*/
+.block9 {
+  background-color: #19191E;
+}
+.block9 h2 {
+  color: #94979C;
+  font-family: 'Klavika';
+  font-size: 28px;
+  margin-bottom: 35px;
+}
+.block9 .btn {
+  font-family: 'Klavika';
+  background-color: #D20A0A;
+  color: #fff;
+  transition: 0.3s;
+  padding: 12px 22px;
+}
+.block9 .btn:hover {
+  color: #D20A0A;
+  background-color: #fff;
+}
+.block9 input {
+  padding: 22px 40px;
+}
+.block9 .fa {
+  color: #fff;
+  transition: 0.3s;
+}
+.block9 .fa:hover {
+  color: #D20A0A;
+  transition: 0.3s;
+}
+/*END BLOCK9*/
+
+/*----------------------------------------*/
+
+/*FOOTER BLOCK10*/
+.block10 {
+  padding-top: 20px;
+  background-color: #0C0C0F;
+  display: flex;
+  align-items: center;
+}
+.block10 li,
+.block10 a,
+.block10 p {
+  color: #4B4E56;
+  font-family: 'Klavika Light';
+  transition: 0.3s;
+  font-size: 13px;
+}
+.block10 a:hover {
+  text-decoration: none;
+  color: #D20A0A;
+  transition: 0.3s;
+}
+.block10-1 a {
+  color: #94979C;
+  font-size: 18px;
+}
