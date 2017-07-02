@@ -17,30 +17,75 @@
 
 /*----------------------------------------*/
 
-/*NAVBAR */
+/*NAVBAR BLACK*/
 .navbar-black {
-  background-color: #151319;
+    background-color: #000;
+    color:#ffffff;
+    border-radius:0;
+    font-family: 'Klavika';
+    font-size: 18px;
 }
-.navbar-black a {
-  font-family: 'Klavika Light';
-  font-size: 16px;
-  color: #fff;
+
+.navbar-black .navbar-nav > li > a {
+    color:#fff;
 }
+
+.navbar-black .navbar-nav > li > a:hover,
+.navbar-black .navbar-nav > li > a:focus,
+.navbar-black .navbar-nav > .active > a:hover,
+.navbar-black .navbar-nav > .active > a:focus,
+.navbar-black .navbar-nav > .open >a {
+    text-decoration: none;
+    background-color: #151319;
+    color: #D20A0A;
+}
+
+.navbar-black .navbar-brand {
+    color: #eeeeee;
+}
+.navbar-black .navbar-toggle {
+    background-color: #eeeeee;
+}
+.navbar-black .icon-bar {
+    background-color: #151319;
+}
+/*END NAVBAR BLACK*/
+
+/*----------------------------------------*/
+
+/*NAVBAR RED*/
 .navbar-red {
-  background-color: #D20A0A;
+    background-color: #D20A0A;
+    color:#ffffff;
+    border-radius:0;
+    font-family: 'Klavika';
+    font-size: 18px;
 }
-.navbar-red a {
-  font-family: 'Klavika';
-  font-size: 18px;
-  color: #fff;
+
+.navbar-red .navbar-nav > li > a {
+    color:#fff;
 }
-.navbar a:hover {
-  color: #D20A0A;
+
+.navbar-red .navbar-nav > li > a:hover,
+.navbar-red .navbar-nav > li > a:focus,
+.navbar-red .navbar-nav > .active > a:hover,
+.navbar-red .navbar-nav > .active > a:focus,
+.navbar-red .navbar-nav > .open >a {
+    text-decoration: none;
+    background-color: #D20A0A;
+    color: #151319;
 }
-.navbar-header a:hover {
-  color: #fff;
+
+.navbar-red .navbar-brand {
+    color:#eeeeee;
 }
-/*END NAVBAR*/
+.navbar-red .navbar-toggle {
+    background-color:#eeeeee;
+}
+.navbar-red .icon-bar {
+    background-color:#D20A0A;;
+}
+/*END NAVBAR-RED*/
 
 /*----------------------------------------*/
 
