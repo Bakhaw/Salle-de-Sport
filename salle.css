@@ -19,7 +19,7 @@
 
 /*NAVBAR BLACK*/
 .navbar-black {
-    background-color: #000;
+    background-color: #151319;
     color:#ffffff;
     border-radius:0;
     font-family: 'Klavika';
@@ -36,7 +36,7 @@
 .navbar-black .navbar-nav > .active > a:focus,
 .navbar-black .navbar-nav > .open >a {
     text-decoration: none;
-    background-color: #151319;
+    background-color: #000;
     color: #D20A0A;
 }
 
