@@ -17,42 +17,6 @@
 
 /*----------------------------------------*/
 
-/*NAVBAR BLACK*/
-.navbar-black {
-    background-color: #151319;
-    color:#ffffff;
-    border-radius:0;
-    font-family: 'Klavika';
-    font-size: 18px;
-}
-
-.navbar-black .navbar-nav > li > a {
-    color:#fff;
-}
-
-.navbar-black .navbar-nav > li > a:hover,
-.navbar-black .navbar-nav > li > a:focus,
-.navbar-black .navbar-nav > .active > a:hover,
-.navbar-black .navbar-nav > .active > a:focus,
-.navbar-black .navbar-nav > .open >a {
-    text-decoration: none;
-    background-color: #000;
-    color: #D20A0A;
-}
-
-.navbar-black .navbar-brand {
-    color: #eeeeee;
-}
-.navbar-black .navbar-toggle {
-    background-color: #eeeeee;
-}
-.navbar-black .icon-bar {
-    background-color: #151319;
-}
-/*END NAVBAR BLACK*/
-
-/*----------------------------------------*/
-
 /*NAVBAR RED*/
 .navbar-red {
     background-color: #D20A0A;
