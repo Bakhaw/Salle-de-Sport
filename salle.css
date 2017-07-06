@@ -18,6 +18,12 @@
 /*----------------------------------------*/
 
 /*NAVBAR RED*/
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
 .navbar-red {
     background-color: #D20A0A;
     color:#ffffff;
